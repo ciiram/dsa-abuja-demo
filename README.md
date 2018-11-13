@@ -14,10 +14,7 @@ We will also demonstrate machine learning on IoT data using Gaussian process reg
 
 ## Mbed
 
-Refer to [Instructions from Jan Jongboom](https://github.com/janjongboom/dsa2018-greenhouse-monitor/blob/master/instructions.md) which deal with 
-1. The Mbed simulator
-1. Using Arm Mbed OS
-1. Connecting Devices to The Things Network
+See this [repo](https://github.com/ciiram/dsa-abuja-mbed-demo) for instructions to gather data using sensors.
 
 
 ## Coffee Monitoring Data
@@ -32,5 +29,7 @@ We have deployed the following sensors
 The aim is to use these data to help plan farming activities such as irrigation and fungicide application.
 
 The sensors are connected to a [Nucleo F446re](https://os.mbed.com/platforms/ST-Nucleo-F446RE/) development board running code contained in this [repo](https://github.com/ciiram/nyeri-coffee).
+
+The notebook in this repo takes you through a regression analysis using the coffee data.
 
 
